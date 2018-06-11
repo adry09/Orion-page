@@ -1,0 +1,313 @@
+/* latin-ext */
+@font-face {
+    font-family: 'Oleo Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Oleo Script'), local('OleoScript-Regular'), url(http://fonts.gstatic.com/s/oleoscript/v6/rax5HieDvtMOe0iICsUccChTu0_g8A.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Oleo Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Oleo Script'), local('OleoScript-Regular'), url(http://fonts.gstatic.com/s/oleoscript/v6/rax5HieDvtMOe0iICsUccChdu08.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #50247d;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #50247d;
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 12px;
+}
+
+
+/***********HEADER*********/
+
+header{
+    background-image: url("../images/orion-gas-and-star-bgr.jpg");
+    margin-bottom: 40px;
+    overflow: hidden;
+    border-bottom: 13px solid #32a5d4;
+
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1{
+    font-family: "Oleo Script";
+    font-size: 68px;
+    color: #fff;
+    height: 75px;
+}
+
+h2{
+    font-family: "Oleo Script";
+    font-size: 48px;
+}
+
+h3{
+    font-size: 26px;
+    color: #fff;
+}
+
+.hunter{
+    color: #000;
+}
+
+
+/*header:after{
+    content: '';
+    width: 1000px;
+    height: 13px;
+    background-color: #32a5d4;
+    position: absolute;
+
+}*/
+
+/**********NAVIGATION************/
+
+nav{
+
+    margin-bottom: 20px;
+}
+
+.navigation{
+
+    list-style: none;
+    overflow: hidden;
+    width: 435px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.navigation li{
+
+    /*width: 100px;
+    height: 100%;*   width & height na <a> !!/
+    /*padding: 15px; never put padding to the LI***/
+    /*background-color na <a> !!! */
+    margin-right: 10px;
+    float: left;
+}
+
+
+.navigation li:last-of-type{
+    margin-right: 0px;
+}
+
+.navigation a {
+    color: #4f2179;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.navigation a:hover{
+    background-color: #36a4d5;
+    color: #fff;
+}
+/*************CONTENT****************/
+
+.main{
+    background-color: #eae7ee;
+    margin-bottom: 40px;
+    overflow: hidden;
+
+    position: relative;
+    padding: 33px;
+    border-top: 13px solid #865ab3;
+    border-bottom: 13px solid #32a5d4;
+
+}
+
+/*main:before{
+    content: '';
+    width: 1000px;
+    height: 13px;
+    background-color: #865ab3;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}*/
+
+
+/*****FIRST FIELD*****/
+
+.field-one{
+    width: 48%;
+    float: left;
+    background-color: #eae7ee;
+    /*padding: 33px;*/
+    margin-right: 2%;
+}
+
+article{
+    background-color: #fff;
+}
+
+.title-two{
+    margin-bottom: 15px;
+}
+
+.title-two h2{
+    height: 50px;
+    line-height: 50px;
+}
+
+.paragraph-one{
+    margin-bottom: 20px;
+}
+
+q{
+    font-family: "Oleo Script";
+    font-weight: bold;
+}
+
+.inner-circle{
+    position: relative;
+    overflow: hidden;
+
+    /*padding: 33px;
+    padding-bottom: 0px;*/
+}
+
+.inner-circle.left{
+    padding: 45px;
+}
+
+.content p:last-of-type{
+    margin-bottom: 30px;
+}
+
+.read{
+    position: absolute;
+    right: 0;
+    top:0;
+    text-align: center;
+}
+
+
+.read a{
+    display: block;
+    width: 110px;
+    height: 33px;
+    padding: 8px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    background-color: #36a4d5;
+}
+
+.wallpaper{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+
+    text-align: center;
+}
+
+.wallpaper a{
+    display: block;
+    max-width: 260px;
+    height: 33px;
+    padding: 8px;
+    background-color: #865ab3;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2em;
+
+}
+
+.wallpaper a:hover{
+    background-color: #50247d;
+
+}
+
+/******SECOND FIELD****/
+
+.field-two{
+    width: 48%;
+    float: left;
+    margin-left: 2%;
+
+}
+
+.field-two .inner-circle{
+    /*padding: 33px 0;*/
+}
+
+.box{
+    /*width: 200px;*/
+    width: 45%;
+    float: left;
+    /*margin: 0 5px 10px 0;*/
+    position: relative;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.odd{
+    margin-right: 5%;
+    margin-left: 0;
+}
+
+.even {
+    margin-left: 5%;
+    margin-right: 0px;
+}
+
+.image img{
+    width: 100%;
+}
+
+.field-title a{
+    text-decoration: none;
+    color: #36a4d5;
+}
+
+.field-content a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+.new-content{
+    padding: 8px;
+}
+
+.field-title{
+    margin-bottom: 5px;
+}
+
+/*******FOOTER****/
+ footer p{
+     color: #fff;
+     font-size: 1.3em;
+ }
